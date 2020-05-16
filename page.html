@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Forms</title>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="forms.css?v=0.0.0"/>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg"/>
+	<link rel="icon" href="img/favicon.ico"/>
+	<!-- Template Basic Images End -->
+</head>
+<body>
+
+	<!-- begin action-box -->
+	<div class="action-box">
+		<form action="#" class="action-box__form" id="form-log-in"> 
+			
+			<header class="action-box__header">
+				<h1 class="action-box__title">Вход</h1>
+				<a href="#" class="action-box__action-link">Зарегистрироваться</a>
+			</header>
+			<h2 class="action-box__title-sm">Войти через</h2>
+			<ul class="action-box__socials">
+				<li class='action-box__social-item'>
+					<a class='action-box__social-link' href="#">
+						<img src="icons/fb.svg" alt="">
+					</a>
+				</li>
+				<li class='action-box__social-item'>
+					<a class='action-box__social-link' href="#">
+						<img src="icons/google.svg" alt="">
+					</a>
+				</li>
+				<li class='action-box__social-item'>
+					<a class='action-box__social-link' href="#">
+						<img src="icons/fb.svg" alt="">
+					</a>
+				</li>
+				<li class='action-box__social-item'>
+					<a class='action-box__social-link' href="#">
+						<img src="icons/twitter.svg" alt="">
+					</a>
+				</li>
+				<li class='action-box__social-item'>
+					<a class='action-box__social-link' href="#">
+						<img src="icons/fb.svg" alt="">
+					</a>
+				</li>
+			</ul>
+			<h2 class="action-box__title-sm">Войти через e-mail</h2>
+			<p class='action-box__field'>
+				<label class='action-box__elem-is-hide' for="form-user-name">E-mail</label>
+				<input class='action-box__input' 
+				type="email"
+				name="user_email"
+				placeholder="E-mail *" 
+				required="true" 
+				id="form-user-name">
+			</p>
+			<p class='action-box__field'>
+				<label class='action-box__elem-is-hide' for="form-user-password">Password</label>
+				<input class='action-box__input' 
+				type="password"
+				name="user_password"
+				placeholder="Password *" 
+				required="true"
+				id="form-user-password">
+			</p>
+			<footer class="action-box__footer action-box__footer--log-in">
+				<button class="action-box__btn">Войти</button>
+				<a href="#" class="action-box__action-link">Забыли пароль?</a>
+			</footer>
+		</form>
+	</div>
+	<!-- end action-box -->
+	<!-- begin action-box -->
+	<div class="action-box">
+		<form action="#" class="action-box__form" id="form-sign-in"> 
+			
+			<header class="action-box__header">
+				<h1 class="action-box__title">Регистрация</h1>
+				<a href="#" class="action-box__action-link">Войти</a>
+			</header>
+			<h2 class="action-box__title-sm">Зарегистрироваться через</h2>
+			<ul class="action-box__socials">
+				<li class='action-box__social-item'>
+					<a class='action-box__social-link' href="#">
+						<img src="icons/fb.svg" alt=""/>
+					</a>
+				</li>
+				<li class='action-box__social-item'>
+					<a class='action-box__social-link' href="#">
+						<img src="icons/google.svg" alt=""/>
+					</a>
+				</li>
+				<li class='action-box__social-item'>
+					<a class='action-box__social-link' href="#">
+						<img src="icons/fb.svg" alt=""/>
+					</a>
+				</li>
+				<li class='action-box__social-item'>
+					<a class='action-box__social-link' href="#">
+						<img src="icons/twitter.svg" alt=""/>
+					</a>
+				</li>
+
+			</ul>
+			<h2 class="action-box__title-sm">Зарегистрироваться через e-mail</h2>
+			<p class='action-box__field'>
+				<label class='action-box__elem-is-hide' for="form-user-name">Имя и фамилия</label>
+				<input class='action-box__input' 
+				type="name"
+				name="user_name"
+				placeholder="Имя и фамилия *" 
+				required="true" 
+				id="form-user-name">
+			</p>
+			<p class='action-box__field'>
+				<label class='action-box__elem-is-hide' for="form-user-name">E-mail</label>
+				<input class='action-box__input' 
+				type="email"
+				name="user_email"
+				placeholder="E-mail *" 
+				required="true" 
+				id="form-user-name">
+			</p>
+			<footer class="action-box__footer">
+				<button class="action-box__btn">Зарегистрироваться</button>
+				
+				<p class="action-box__text action-box__privacy">
+					Нажимая «Зарегистрироваться» я принимаю условия  
+					<a href="#">пользовательского соглашения</a></p>
+				</footer>
+			</form>
+		</div>
+		<!-- end action-box -->
+
+		<!-- begin action-box -->
+		<div class="action-box">
+			<form action="#" class="action-box__form" id="form-reset-password"> 
+				<header class="action-box__header">
+					<h1 class="action-box__title">Сбросить пароль</h1>
+					<a href="#" class="action-box__action-link">Войти</a>
+				</header>
+				<h2 class="action-box__title-sm">Сбросить пароль через e-mail</h2>
+				<p class='action-box__field'>
+					<label class='action-box__elem-is-hide' for="uform-user-name">E-mail</label>
+					<input class='action-box__input' 
+					type="email"
+					name="user_email"
+					placeholder="E-mail *" 
+					required="true" 
+					id="form-user-name">
+				</p>
+				<footer class="action-box__footer">
+					<button class="action-box__btn">Сбросить</button>
+				</footer>
+			</form>
+		</div>
+		<!-- end action-box -->
+		<!-- begin action-box -->
+		<div class="action-box">
+			<div class="action-box__section" > 
+				<header class="action-box__header">
+					<h1 class="action-box__title">Подтвердите E-mail</h1>
+					<a href="#" class="action-box__action-link">Войти</a>
+				</header>
+				<div class="action-box__paragraph-group">
+					<p class="action-box__text">
+						На вашу почту <span>user@mail.com</span> было отправлено письмо для подверждения
+						аккаунта. Пожалуйста, следуйте инструкциям, указанным в данном письме,
+						что бы получить доступ ко всем функциям сайта. 
+					</p>
+					<p class="action-box__text">
+						Если письма нет, то пожалуйста, проверьте папку «Спам» или свяжитесь с 
+						нами через <a href="#">форму обратной связи.</a>
+					</p>
+				</div>
+				<footer class="action-box__footer">
+					<a href='/' class="action-box__btn">На главную</a>
+				</footer>
+			</div>
+		</div>
+		<!-- end action-box -->
+		<!-- Password recovery-->
+		<div class="action-box">
+			<div class="action-box__section"> 
+				<header class="action-box__header">
+					<h1 class="action-box__title">Восстановление пароля</h1>
+				</header>
+				<div class="action-box__paragraph-group">
+					<p class="action-box__text">
+						На почту <span>user@mail.com</span> было отправлено письмо с инструкцией по 
+						восстановлению пароля. 
+					</p>
+					<p class="action-box__text">
+						Если письма нет, то пожалуйста, проверьте папку «Спам» или свяжитесь с 
+						нами через <a href="#">форму обратной связи.</a>
+					</p>
+				</div>
+				<footer class="action-box__footer">
+					<button class="action-box__btn">На главную</button>
+				</footer>
+			</div>
+		</div>
+		<!-- end action-box -->
+		<!-- begin action-box -->
+		<div class="action-box">
+			<form action="#" class="action-box__form" id="form-d-in"> 
+
+				<header class="action-box__header">
+					<h1 class="action-box__title">Обратная связь</h1>
+				</header>
+				<h2 class="action-box__title-sm">Если у вас возникли любые вопросы, какие-либо сложности, или 
+				предложения по улучшению, то пожалуйста, пришлите их в нашу
+				службу поддержки через форму ниже.</h2>
+				<p class='action-box__field'>
+					<label class='action-box__elem-is-hide' for="form-user-name">Имя и фамилия</label>
+					<textarea class='action-box__input action-box__textarea' 
+					type="name"
+					name="user_message"
+					placeholder="Введите ваше сообщение" 
+					required="true" 
+					id="form-user-name"
+					cols="30" 
+					rows="10"></textarea>
+				</p>
+				<footer class="action-box__footer action-box__footer--vertical">
+					<p class="action-box__field">
+						<label class='action-box__btn action-box__btn--file' multiple for="user-upload">Прикрепить файлы</label>
+						<input type="file" name='user-file' class='action-box__field-is-hide js-add-file' id='user-upload'/>
+					</p>
+					<div class="action-box__added-files"></div>
+					<button class="action-box__btn">Отправить</button>
+				</footer>
+			</form>
+		</div>
+		<!-- end action-box -->
+		<!-- Password recovery-->
+		<div class="action-box">
+			<div class="action-box__section"> 
+				<header class="action-box__header">
+					<h1 class="action-box__title">Сообщение отправлено</h1>
+					<a href="#" class="action-box__action-link">Отправить ещё</a>
+				</header>
+				<div class="action-box__paragraph-group">
+					<p class="action-box__text">
+						Спасибо! Мы получили ваше сообщение и постараемся ответить как 
+						можно быстрее. Время ответа может варьироваться от практически 
+						мгновенного и до нескольких рабочих дней. 
+					</p>
+				</div>
+				<footer class="action-box__footer">
+					<button class="action-box__btn">На главную</button>
+				</footer>
+			</div>
+		</div>
+		<!-- end action-box -->
+		<!-- begin action-box -->
+		<div class="action-box">
+			<form action="#" class="action-box__form" id="form-user-settings"> 
+
+				<header class="action-box__header">
+					<h1 class="action-box__title">Личный кабинет</h1>
+				</header>
+				<div class="action-box__tabs">
+					<a href='#' class="action-box__tab">Настройки</a>
+					<a href='#' class="action-box__tab">Подписки</a>
+				</div>
+				<h2 class="action-box__title-md">Данные для входа</h2>
+				<h3 class="action-box__title-sm">E-mail</h3>
+				<p class='action-box__field'>
+					<label class='action-box__elem-is-hide' for="form-user-name">E-mail</label>
+					<input class='action-box__input' 
+					type="email"
+					name="user_email"
+					placeholder="user@mail.com" 
+					required="true" 
+					id="form-user-name">
+				</p>
+				<h3 class="action-box__title-sm">Пароль</h3>
+				<p class='action-box__field'>
+					<label class='action-box__elem-is-hide' for="form-user-password">Password</label>
+					<input class='action-box__input' 
+					type="password"
+					name="user_password"
+					placeholder="Новый пароль" 
+					required="true"
+					id="form-user-password">
+				</p>
+				<p class='action-box__field'>
+					<label class='action-box__elem-is-hide' for="form-user-password">Password</label>
+					<input class='action-box__input' 
+					type="password"
+					name="user_password"
+					placeholder="Новый пароль повторно" 
+					required="true"
+					id="form-user-password">
+				</p>
+				<h2 class="action-box__title-sm">Привязанные приложения</h2>
+				<ul class="action-box__socials">
+					<li class='action-box__social-item'>
+						<a class='action-box__social-link' href="#">
+							<img src="icons/fb.svg" alt="">
+						</a>
+					</li>
+					<li class='action-box__social-item'>
+						<a class='action-box__social-link' href="#">
+							<img src="icons/google.svg" alt="">
+						</a>
+					</li>
+				</ul>
+				<h2 class="action-box__title-sm">Добавить другую привязку</h2>
+				<ul class="action-box__socials">
+					<li class='action-box__social-item'>
+						<a class='action-box__social-link' href="#">
+							<img src="icons/fb.svg" alt="">
+						</a>
+					</li>
+					<li class='action-box__social-item'>
+						<a class='action-box__social-link' href="#">
+							<img src="icons/google.svg" alt="">
+						</a>
+					</li>
+					<li class='action-box__social-item'>
+						<a class='action-box__social-link' href="#">
+							<img src="icons/fb.svg" alt="">
+						</a>
+					</li>
+				</ul>
+				<footer class="action-box__footer action-box__footer--vertical">
+					<div class="action-box__added-files"></div>
+					<button class="action-box__btn">Сохранить</button>
+				</footer>
+			</form>
+		</div>
+		<!-- end action-box -->
+
+	<script src='forms.js?v=0.0.0'></script>
+</body>
+</html>
