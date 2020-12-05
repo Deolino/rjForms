@@ -341,6 +341,158 @@
 		</div>
 		<!-- end action-box -->
 
+
+
+
+		<!-- begin action-box -->
+		<div class="action-box">
+			<form action="#" class="action-box__form" id="form-user-settings"> 
+				<header class="action-box__header">
+					<h1 class="action-box__title">Личный кабинет</h1>
+					<a href="#" class="action-box__action-link">Личный кабинет</a>
+				</header>
+				<div class="action-box__tabs action-box__tabs--toggle">
+					<a href='#' class="action-box__tab">Настройки</a>
+					<a href='#' class="action-box__tab action-box__tab--active">Подписки</a>
+				</div>
+				<h2 class="action-box__title-md">Вакансии</h2>
+				<h3 class="action-box__title-sm">Получать новые вакансии</h3>
+				<!-- begin checkboxes -->
+				<ul class="checkboxes">
+					<li class="checkboxes__checkbox">
+						<input type="checkbox" name='vacancy_email' id='vacancy_email' class="checkboxes__input">
+						<label for="vacancy_email" class="checkboxes__label">По E-mail</label>
+					</li>
+					<li class="checkboxes__checkbox">
+						<input type="checkbox" name='vacancy_tg' id='vacancy_tg' class="checkboxes__input">
+						<label for="vacancy_tg" class="checkboxes__label">От бота в Telegram</label>
+					</li>
+					<li class="checkboxes__checkbox">
+						<input type="checkbox" name='vacancy_vk' id='vacancy_vk' class="checkboxes__input">
+						<label for="vacancy_vk" class="checkboxes__label">От бота в VK</label>
+					</li>
+				</ul>
+				<!-- end checkboxes -->
+				
+				
+				
+				<!-- begin vacancy-mailing -->
+				<div class="vacancy-mailing">
+					<div class="vacancy-mailing__mailing-boxes">
+						<!-- begin mailing-box -->
+						<div class="mailing-box" id='mailing-box-1'>
+							<h3 class="action-box__title-sm">Параметры рассылки вакансий <span>#1</span></h3>
+							<div class="custom-select custom-select--cat">
+								<div class="custom-select__field action-box__field">
+									<input type="search" placeholder='Выберите категорию' class="action-box__input custom-select__input">
+								</div>	
+								<ul class="custom-select__values">
+									<li class="custom-select__value js-custom-select-cat">Category-1</li>
+									<li class="custom-select__value js-custom-select-cat">Category-2</li>
+									<li class="custom-select__value js-custom-select-cat">Category-3</li>
+									<li class="custom-select__value js-custom-select-cat">Category-4</li>
+									<li class="custom-select__value js-custom-select-cat">Category-5</li>
+									<li class="custom-select__value js-custom-select-cat">Design</li>
+									<li class="custom-select__value js-custom-select-cat">Marketing</li>
+								</ul>
+							</div>
+							<div class="custom-select custom-select--skills custom-select--is-disabled">
+								<div class="custom-select__field action-box__field">
+									<input type="search" placeholder='Выберите навыки' class="action-box__input custom-select__input">
+								</div>	
+								<ul class="checkboxes custom-select__values">
+									<li class="checkboxes__checkbox custom-select__value">
+										<input type="checkbox" class='checkboxes__input js-input-skill' id='php'>
+										<label class="checkboxes__label" for="php">PHP</label>
+									</li>
+									<li class="checkboxes__checkbox custom-select__value">
+										<input type="checkbox" class='checkboxes__input js-input-skill' id='MySQL'>
+										<label class="checkboxes__label" for="MySQL">MySQL</label>
+									</li>
+									<li class="checkboxes__checkbox custom-select__value">
+										<input type="checkbox" class='checkboxes__input js-input-skill' id='HTML'>
+										<label class="checkboxes__label" for="HTML">HTML</label>
+									</li>
+									<li class="checkboxes__checkbox custom-select__value">
+										<input type="checkbox" class='checkboxes__input js-input-skill' id='PHPMyAdmin'>
+										<label class="checkboxes__label" for="PHPMyAdmin">PHPMyAdmin</label>
+									</li>
+									<li class="checkboxes__checkbox custom-select__value">
+										<input type="checkbox" class='checkboxes__input js-input-skill' id='C++'>
+										<label class="checkboxes__label" for="C++">C++</label>
+									</li>
+									<li class="checkboxes__checkbox custom-select__value">
+										<input type="checkbox" class='checkboxes__input js-input-skill' id='Design'>
+										<label class="checkboxes__label" for="Design">Design</label>
+									</li>
+									<li class="checkboxes__checkbox custom-select__value">
+										<input type="checkbox" class='checkboxes__input js-input-skill' id='Marketing'>
+										<label class="checkboxes__label" for="Marketing">Marketing</label>
+									</li>
+								</ul>
+							</div>
+							<div class="mailing-box__selected-info">
+								<h3 class="action-box__title-sm">Категория</h3>
+								<div class="mailing-box__selected-cat"></div>
+								<ul class="mailing-box__selected-skills">
+								</ul>
+							</div>
+						</div>
+						<!-- end mailing-box -->
+					</div>
+					<a href='#' class="action-box__title-sm action-box__action-link vacancy-mailing__new-mail-btn">+ Добавить ещё рассылку</a>
+				</div>
+				<!-- end vacancy-mailing -->
+
+				<h2 class="action-box__title-md">Новости</h2>
+				<h3 class="action-box__title-sm">Получать новости</h3>
+				<!-- begin checkboxes -->
+				<ul class="checkboxes">
+					<li class="checkboxes__checkbox">
+						<input type="checkbox" name='news_email' id='news_email' class="checkboxes__input">
+						<label for="news_email" class="checkboxes__label">По E-mail</label>
+					</li>
+					<li class="checkboxes__checkbox">
+						<input type="checkbox" name='news_tg' id='news_tg' class="checkboxes__input">
+						<label for="news_tg" class="checkboxes__label">От бота в Telegram</label>
+					</li>
+					<li class="checkboxes__checkbox">
+						<input type="checkbox" name='news_vk' id='news_vk' class="checkboxes__input">
+						<label for="news_vk" class="checkboxes__label">От бота в VK</label>
+					</li>
+				</ul>
+				<!-- end checkboxes -->
+				<h2 class="action-box__title-md">Статьи</h2>
+				<h3 class="action-box__title-sm">Получать новости</h3>
+				<!-- begin checkboxes -->
+				<ul class="checkboxes">
+					<li class="checkboxes__checkbox">
+						<input type="checkbox" name='posts_email' id='posts_email' class="checkboxes__input">
+						<label for="posts_email" class="checkboxes__label">По E-mail</label>
+					</li>
+					<li class="checkboxes__checkbox">
+						<input type="checkbox" name='posts_tg' id='posts_tg' class="checkboxes__input">
+						<label for="posts_tg" class="checkboxes__label">От бота в Telegram</label>
+					</li>
+					<li class="checkboxes__checkbox">
+						<input type="checkbox" name='posts_vk' id='posts_vk' class="checkboxes__input">
+						<label for="posts_vk" class="checkboxes__label">От бота в VK</label>
+					</li>
+				</ul>
+				<!-- end checkboxes -->
+
+				<footer class="action-box__footer action-box__footer--vertical">
+					<button class="action-box__btn">Сохранить</button>
+				</footer>
+			</form>
+		</div>
+		<!-- end action-box -->
+		
+	
+
+		
+
+		
 	<script src='forms.js?v=0.0.0'></script>
 </body>
 </html>

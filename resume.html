@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Forms</title>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="forms.css?v=0.0.0"/>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg"/>
+	<link rel="icon" href="img/favicon.ico"/>
+	<!-- Template Basic Images End -->
+</head>
+<body>
+
+
+			<!-- begin action-box -->
+		<div class="action-box">
+			<form action="#" class="action-box__form"> 
+
+				<header class="action-box__header">
+					<h1 class="action-box__title">Личный кабинет</h1>
+					<a href="#" class="action-box__action-link">Настройки аккаунта</a>
+				</header>
+				<div class="action-box__paragraph-group">
+					<p class="action-box__text">
+						На этой страничке можно будет управлять своими объектами (вакансии,
+						компании, резюме), просматривать статистику и историю. 
+						<br>
+						<br>
+						Выберите действие в зависимости от того ищите ли вы сотрудника 
+						или работу 
+					</p>
+				</div>
+				<footer class="action-box__footer action-box__footer--vertical">
+					<div class="double-choice">
+						<button class="action-box__btn double-choice__btn double-choice__btn--client">Добавить вакансию</button>
+						<div class="double-choice__separator">или</div>
+						<button class="action-box__btn double-choice__btn double-choice__btn--executor">Добавить резюме</button>
+					</div>
+				</footer>
+			</form>
+		</div>
+		<!-- end action-box -->
+
+		<!-- begin action-box -->
+		<div class="action-box">
+			<form action="#" class="action-box__form"> 
+
+				<header class="action-box__header">
+					<h1 class="action-box__title">Добавить резюме</h1>
+					<a href="#" class="action-box__action-link">Личный кабинет</a>
+				</header>
+				<div class="action-box__paragraph-group">
+					<p class="action-box__text">
+						Добавить резюме можно создав его на сайте или загрузив из файла.
+					</p>
+				</div>
+				<footer class="action-box__footer action-box__footer--vertical">
+					<div class="double-choice">
+						<button class="action-box__btn double-choice__btn double-choice__btn--accent">Создать резюме</button>
+						<div class="double-choice__separator">или</div>
+						<button class="action-box__btn double-choice__btn double-choice__btn--accent">Загрузить из файла</button>
+					</div>
+				</footer>
+			</form>
+		</div>
+		<!-- end action-box -->
+
+		<!-- begin action-box -->
+		<div class="action-box">
+			<form action="#" class="action-box__form"> 
+
+				<header class="action-box__header">
+					<h1 class="action-box__title">Загрузить резюме из файла</h1>
+					<a href="#" class="action-box__action-link">Назад</a>
+				</header>
+				<div class="action-box__paragraph-group">
+					<p class="action-box__text">
+						Загрузите файл с вашим резюме. В ближайшее время резюме будет 
+						опубликовано на сайте (до 2 рабочих дней) 
+					</p>
+				</div>
+				<footer class="action-box__footer action-box__footer--vertical">
+					<p class="action-box__field">
+						<label class='action-box__btn action-box__btn--file' multiple for="user-upload">Прикрепить файлы</label>
+						<input type="file" name='user-file' class='action-box__field-is-hide js-add-file' id='user-upload'/>
+					</p>
+					<div class="action-box__added-files"></div>
+					<button class="action-box__btn">Отправить</button>
+				</footer>
+			</form>
+		</div>
+		<!-- end action-box -->
+		<!-- begin action-box -->
+		<div class="action-box">
+			<form action="#" class="action-box__form"> 
+				<header class="action-box__header">
+					<div class="action-box__title-box">
+						<h2 class="action-box__title-sm action-box__subtitle-top">Добавить резюме</h2>
+						<h1 class="action-box__title">Контактная информация</h1>
+					</div>
+					<a href="#" class="action-box__action-link">Шаг 1/6</a>
+				</header>
+				<h2 class="action-box__title-sm">Имя и фамилия</h2>
+				<p class='action-box__field'>
+					<label class='action-box__elem-is-hide' for="user_first_name">Имя</label>
+					<input class='action-box__input' 
+					type="name"
+					name="user_first_name"
+					placeholder="Имя *" 
+					required="true" 
+					id="user_first_name">
+				</p>
+				<p class='action-box__field'>
+					<label class='action-box__elem-is-hide' for="user_second_name">фамилия</label>
+					<input class='action-box__input' 
+					type="text"
+					name="user_second_name"
+					placeholder="E-mail *" 
+					required="true" 
+					id="user_second_name">
+				</p>
+				<h2 class="action-box__title-sm">Дата рождения</h2>
+				<p class='action-box__field'>
+					<label class='action-box__elem-is-hide' for="form-user-name">Дата рождения</label>
+					<input class='action-box__input' 
+					type="text"
+					name="user_name"
+					placeholder="Дата рождения" 
+					required="true" 
+					id="form-user-name">
+				</p>
+				<h2 class="action-box__title-sm">Город</h2>
+				<p class='action-box__field'>
+					<label class='action-box__elem-is-hide' for="form-user_city">Город проживания</label>
+					<input class='action-box__input' 
+					type="text"
+					name="user_city"
+					placeholder="Город *" 
+					required="true" 
+					id="form-user_city">
+				</p>
+				<h2 class="action-box__title-sm">Гражданство (страна)</h2>
+				<p class='action-box__field'>
+					<label class='action-box__elem-is-hide' for="form-user_from">Гражданство (страна)</label>
+					<input class='action-box__input' 
+					type="text"
+					name="user_from"
+					placeholder="Гражданство *" 
+					required="true" 
+					id="form-user_from">
+				</p>
+				<h2 class="action-box__title-sm">Контакты</h2>
+				<p class='action-box__field'>
+					<label class='action-box__elem-is-hide' for="form-user_email">E-mail *</label>
+					<input class='action-box__input' 
+					type="email"
+					name="user_email"
+					placeholder="E-mail *" 
+					required="true" 
+					id="form-user_email">
+				</p>
+				<p class='action-box__field'>
+					<label class='action-box__elem-is-hide' for="form-user_tel">Мобильный_телефон *</label>
+					<input class='action-box__input' 
+					type="text"
+					name="user_tel"
+					placeholder="Мобильный_телефон *" 
+					required="true" 
+					id="form-user_tel">
+				</p>
+				<footer class="action-box__footer action-box__footer--vertical">
+					
+					<button class="action-box__btn">Продолжить</button>
+				</footer>
+			</form>
+		</div>
+		<!-- end action-box -->
+		<!-- begin action-box -->
+		<div class="action-box">
+			<form action="#" class="action-box__form"> 
+
+				<header class="action-box__header">
+					<div class="action-box__title-box">
+						<h2 class="action-box__title-sm action-box__subtitle-top">Добавить образование</h2>
+						<h1 class="action-box__title">Образование</h1>
+					</div>
+					<a href="#" class="action-box__action-link">Шаг 2/6</a>
+				</header>
+				<h3 class="action-box__title-sm">Данные о образовании <span>#1</span></h3>
+				<div class="custom-select custom-select--cat">
+					<div class="custom-select__field action-box__field">
+						<input type="search" placeholder='Выберите категорию' class="action-box__input custom-select__input">
+					</div>	
+					<ul class="custom-select__values">
+						<li class="custom-select__value js-custom-select-cat">Category-1</li>
+						<li class="custom-select__value js-custom-select-cat">Category-2</li>
+						<li class="custom-select__value js-custom-select-cat">Category-3</li>
+						<li class="custom-select__value js-custom-select-cat">Category-4</li>
+						<li class="custom-select__value js-custom-select-cat">Category-5</li>
+						<li class="custom-select__value js-custom-select-cat">Design</li>
+						<li class="custom-select__value js-custom-select-cat">Marketing</li>
+					</ul>
+				</div>
+							
+				<footer class="action-box__footer action-box__footer--vertical">
+					<p class="action-box__field">
+						<label class='action-box__btn action-box__btn--file' multiple for="user-upload">Прикрепить файлы</label>
+						<input type="file" name='user-file' class='action-box__field-is-hide js-add-file' id='user-upload'/>
+					</p>
+					<div class="action-box__added-files"></div>
+					<button class="action-box__btn">Отправить</button>
+				</footer>
+			</form>
+		</div>
+		<!-- end action-box -->
+		
+
+	<script src='forms.js?v=0.0.0'></script>
+</body>
+</html>
